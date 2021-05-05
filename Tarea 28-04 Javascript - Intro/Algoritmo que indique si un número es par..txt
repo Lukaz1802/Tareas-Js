@@ -1,0 +1,5 @@
+1- Introducimos un numero entero.
+2- Dividimos ese numero entre 2.
+3- El resto de la division es 0?
+Si: Es un numero par.
+No: El resultado no es un numero par.
