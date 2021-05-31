@@ -17,7 +17,7 @@ let producto3 = new Productos("03", "Vaquero", "$7.000");
 let productos = [producto1, producto2, producto3];
 
 for (i=0; i < productos.length; i++){
-    document.write(productos[i])
+    document.write(productos[i].imprimedatos() + "<br>")
 }
 
 
