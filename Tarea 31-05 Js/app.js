@@ -14,4 +14,10 @@ let producto1 = new Productos("01", "Zapato", "$15.000");
 let producto2 = new Productos("02", "Remera", "$3.000");
 let producto3 = new Productos("03", "Vaquero", "$7.000");
 
+let productos = [producto1, producto2, producto3];
+
+for (i=0; i < productos.length; i++){
+    document.write(productos[i])
+}
+
 
