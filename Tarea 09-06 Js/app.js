@@ -1,5 +1,5 @@
 let numeroAleatorio = null
-let introducir = document.getElementById('num'); 
+let numeroIntroducir = document.getElementById('.num');
 
 
 
@@ -14,7 +14,7 @@ function numeroAleatorioBot() {
 }
 
 function IngresarNumero() {
-    if (introducir===numeroAleatorio) {
+    if (numeroIntroducir===numeroAleatorio) {
         alert("GANASTE")
     }else{
         alert("PERDISTE!")
