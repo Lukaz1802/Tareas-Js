@@ -1,5 +1,5 @@
 let numeroAleatorio = null
-let numeroIntroducir = document.getElementById('.num');
+let numeroIntroducir = document.getElementById('num');
 
 
 
@@ -14,9 +14,13 @@ function numeroAleatorioBot() {
 }
 
 function IngresarNumero() {
-    if (numeroIntroducir===numeroAleatorio) {
-        alert("GANASTE")
-    }else{
-        alert("PERDISTE!")
-    }
+    if (numeroIntroducir.value == numeroAleatorio)
+    alert("GANASTE!")
+else if (numeroIntroducir.value > numeroAleatorio)
+alert("CASI! El número que introduciste es mayor al numero magico!")
+else if (numeroIntroducir.value < numeroAleatorio)
+alert("CASI! El número que introduciste es menor al numero magico!")
+else {
+
+}
 }
